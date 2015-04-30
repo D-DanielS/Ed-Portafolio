@@ -1,0 +1,39 @@
+.profile{
+	&__title{
+		font-size: 1.75em;
+		border-bottom: 3px dashed orange;
+		text-align: center;
+		text-transform: capitalize;
+		padding-bottom: .7em;
+		
+	}
+	&__description{
+		text-align: justify;
+		padding-bottom: 1em;
+		font-size: 1.50em;
+	}
+	&__link{
+		font-size: 1.75em;
+		margin-top: .4em;
+		display: block;
+		padding: .2em;
+		text-align: center;
+		text-transform: capitalize;
+		text-decoration: none;
+		
+	}
+	&__link--twitter{
+		background: red;
+		color: #fff;
+	
+	}
+	&__link--facebook{
+		background: blue;
+		color: #fff;
+		
+	}
+	&__link--github{
+		background: green;
+		color: #fff;
+	}
+}
