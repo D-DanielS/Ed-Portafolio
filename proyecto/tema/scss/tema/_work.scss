@@ -1,14 +1,14 @@
 .work{
 
-
 	&__title{
 		font-size: 1.75em;
 		text-align: center;
 		text-transform: capitalize;
 		border-bottom: 2px dashed orange;
-		width: 100%;
 		margin: 0;
-		padding-bottom: .4em;
+		padding-top: .7em;
+		padding-bottom: .7em;
+		width: 100%;
 	}
 	&__image{
 		display: block;

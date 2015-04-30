@@ -5,15 +5,18 @@
 		text-align: center;
 		text-transform: capitalize;
 		margin: .2em;
-		padding-bottom: .4em;
+		padding-top: .7em;
+		padding-bottom: .7em;
 
 	}
 	&__description{	
 		text-align: justify;
 		font-size: 1.50em;
+		padding-top: 1em;
 	}
 	&__form{
 		margin: .5em;
+		padding-top: .7em;
 	}
 	&__input--text{
 		text-transform: capitalize;
