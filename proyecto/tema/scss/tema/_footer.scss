@@ -1,0 +1,32 @@
+.footer{
+	&__title{
+		border-bottom: 3px dashed orange;
+		font-size: 1.75em;
+		text-align: center;
+		text-transform: capitalize;
+		margin: .2em;
+		padding-bottom: .4em;
+
+	}
+	&__description{	
+		text-align: justify;
+		font-size: 1.50em;
+	}
+	&__form{
+	}
+	&__input--text{
+		text-transform: capitalize;
+		background: red;
+	}
+	&__input--pass{
+		text-transform: capitalize;
+	}
+	&__textarea{
+		text-transform: capitalize;
+
+	}
+	&__button{
+		text-transform: capitalize;
+		display: block;
+	}
+}

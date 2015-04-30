@@ -7,7 +7,7 @@ html(lang="es")
 		link(rel="stylesheet", href="tema/css/estilos.css")
 		script(src="http://code.jquery.com/jquery-1.11.2.min.js")
 		script(src="tema/js/scripts.js")
-		body.desarrollo
+		body
 			header.header
 				.grupo
 					.caja
@@ -37,53 +37,59 @@ html(lang="es")
 						a.profile__link.profile__link--facebook(href="#") juan Lizcano
 						a.profile__link.profile__link--github(href="#") d-Daniels
 
-			section
+			section.work
 				.grupo
 					.caja
-						h2 work
+						h2.work__title work
 
 					.caja.tablet-1-3
-						img(src="http://lorempixel.com/350/350", alt="word")
-						p   Lorem ipsum dolor sit amet, consectetur.
+						img.work__image(src="http://lorempixel.com/500/500", alt="word")
+						p.work__description    Lorem ipsum dolor sit amet.
 					.caja.tablet-1-3
-						img(src="http://lorempixel.com/350/350", alt="word")
-						p   Lorem ipsum dolor sit amet, consectetur.
+						img.work__image(src="http://lorempixel.com/500/500", alt="word")
+						p.work__description    Lorem ipsum dolor sit amet.
 
 					.caja.tablet-1-3
-						img(src="http://lorempixel.com/350/350", alt="word")
-						p   Lorem ipsum dolor sit amet, consectetur.
+						img.work__image(src="http://lorempixel.com/500/500", alt="word")
+						p.work__description    Lorem ipsum dolor sit amet.
 					.caja.tablet-1-3
-						img(src="http://lorempixel.com/350/350", alt="word")
-						p   Lorem ipsum dolor sit amet, consectetur.
+						img.work__image(src="http://lorempixel.com/500/500", alt="word")
+						p.work__description    Lorem ipsum dolor sit amet.
 					
 					.caja.tablet-1-3
-						img(src="http://lorempixel.com/350/350", alt="word")
-						p   Lorem ipsum dolor sit amet, consectetur.
+						img.work__image(src="http://lorempixel.com/500/500", alt="word")
+						p.work__description    Lorem ipsum dolor sit amet.
 
 					.caja.tablet-1-3
-						img(src="http://lorempixel.com/350/350", alt="word")
-						p   Lorem ipsum dolor sit amet, consectetur.
+						img.work__image(src="http://lorempixel.com/500/500", alt="word")
+						p.work__description    Lorem ipsum dolor sit amet.
 
 					.caja.tablet-1-3
-						img(src="http://lorempixel.com/350/350", alt="word")
-						p   Lorem ipsum dolor sit amet, consectetur.
+						img.work__image(src="http://lorempixel.com/500/500", alt="word")
+						p.work__description    Lorem ipsum dolor sit amet.
 
 					.caja.tablet-1-3
-						img(src="http://lorempixel.com/350/350", alt="word")
-						p   Lorem ipsum dolor sit amet, consectetur.
+						img.work__image(src="http://lorempixel.com/500/500", alt="word")
+						p.work__description    Lorem ipsum dolor sit amet.
 
 					.caja.tablet-1-3
-						img(src="http://lorempixel.com/350/350", alt="word")
-						p   Lorem ipsum dolor sit amet, consectetur.
+						img.work__image(src="http://lorempixel.com/500/500", alt="word")
+						p.work__description    Lorem ipsum dolor sit amet.
 	
-			footer
-				.grupo
+			footer.footer
+				.grupo.demostrar
 					.caja
-						form(action="")
-						input(type="text" placeholder="nombre" )
-						input(type="email" placeholder="email" )
-						textarea(placeholder="motivo" )
-						button(type="submit") contactarme
+						h2.footer__title contacto
+
+					.caja
+						p.footer__description  Lorem ipsum dolor sit amet, consectetur adipisicing elit. In fugiat, similique nemo tenetur accusamus, consectetur?
+					
+					.caja
+						form.footer__form(action="")
+						input.footer__input--text(type="text" placeholder="nombre" )
+						input.footer__input--pass(type="email" placeholder="email" )
+						textarea.footer__textarea(placeholder="motivo" )
+						button.footer__button(type="submit") contactarme
 
 
 
