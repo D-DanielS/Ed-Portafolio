@@ -2,9 +2,11 @@
 	&__menu{
 		background: rgba(#000,.85);
 		list-style: none;
-		padding: 1em;
+		padding: .5em;
 		height: 5em;
 		text-align: center;
+		display: inline-block;
+
 		
 		z-index: 1000;
 		position: fixed;
@@ -14,11 +16,12 @@
 	}
 	&__menu--item{
 		display: inline-block;
-		padding: .3em .4em;
 	}
 	&__menu--link{
 		color: #fff;
 		font-size: 1.50em;
+		line-height: 2.5em;
+		margin-right: .2em;
 		text-transform: capitalize;
 		text-decoration: none;
 	}

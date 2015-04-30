@@ -12,9 +12,16 @@
 		box-shadow: .5px .5px 10px #000;	
 		margin: 7em  auto 0 ;
 		display: block;
-		width: 330px;
-		height: 320px;
-
+		width: 100%;
+		@include desde(movil){
+			width: 50%;
+		}
+		@include desde(tablet){
+			width: 30%;
+		}
+		@include desde(web){
+			width: 25%;
+		}
 	}
 	&__link{
 		font-size: 1.75em;

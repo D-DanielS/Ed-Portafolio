@@ -8,83 +8,103 @@ html(lang="es")
 		script(src="http://code.jquery.com/jquery-1.11.2.min.js")
 		script(src="tema/js/scripts.js")
 		body
-			header.header
+			header.header#me
 				.grupo
 					.caja
 						ul.header__menu							
 							li.header__menu--item
-								a.header__menu--link(href="#") me
+								a.header__menu--link(href="#me") me
 							li.header__menu--item
-								a.header__menu--link(href="#")	profile
+								a.header__menu--link(href="#profile")	profile
 							li.header__menu--item
-								a.header__menu--link(href="#") work
+								a.header__menu--link(href="#work") work
 							li.header__menu--item
-								a.header__menu--link(href="#") contact
+								a.header__menu--link(href="#contact") contact
 
 						img.header__image(src="http://lorempixel.com/600/600", alt="avatar")
 						a.header__link(href="#") danielSpiritual
 						p.header__name juan Lizcano
 			
-			section.profile
+			section.profile#profile
 				.grupo
 					.caja
 						h2.profile__title profile
 					.caja
 						p.profile__description  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, labore tempora magni excepturi repudiandae?
 
+
 					.caja
 						a.profile__link.profile__link--twitter(href="#") danielSpiritual
 						a.profile__link.profile__link--facebook(href="#") juan Lizcano
 						a.profile__link.profile__link--github(href="#") d-Daniels
+					//- .caja.movil-1-3
+					//- 	a.profile__link.profile__link--twitter(href="#") danielSpiritual
+					//- .caja.movil-1-3
+					//- 	a.profile__link.profile__link--facebook(href="#") juan Lizcano
+					//- .caja.movil-1-3
+					//- 	a.profile__link.profile__link--github(href="#") d-Daniels
 
-			section.work
+			section.work#work
 				.grupo
 					.caja
 						h2.work__title work
 
-					.caja.tablet-1-3
+					.caja.movil-50.tablet-1-3
 						img.work__image(src="http://lorempixel.com/500/500", alt="word")
 						p.work__description    Lorem ipsum dolor sit amet.
-					.caja.tablet-1-3
+					.caja.movil-50.tablet-1-3
 						img.work__image(src="http://lorempixel.com/500/500", alt="word")
 						p.work__description    Lorem ipsum dolor sit amet.
 
-					.caja.tablet-1-3
-						img.work__image(src="http://lorempixel.com/500/500", alt="word")
-						p.work__description    Lorem ipsum dolor sit amet.
-					.caja.tablet-1-3
+					.caja.movil-50.tablet-1-3
 						img.work__image(src="http://lorempixel.com/500/500", alt="word")
 						p.work__description    Lorem ipsum dolor sit amet.
 					
-					.caja.tablet-1-3
+					.caja.movil-50.tablet-1-3
+						img.work__image(src="http://lorempixel.com/500/500", alt="word")
+						p.work__description    Lorem ipsum dolor sit amet.
+					
+					.caja.movil-50.tablet-1-3
+						img.work__image(src="http://lorempixel.com/500/500", alt="word")
+						p.work__description    Lorem ipsum dolor sit amet.
+					
+					.caja.movil-50.tablet-1-3
 						img.work__image(src="http://lorempixel.com/500/500", alt="word")
 						p.work__description    Lorem ipsum dolor sit amet.
 
-					.caja.tablet-1-3
+					.caja.movil-50.tablet-1-3
 						img.work__image(src="http://lorempixel.com/500/500", alt="word")
 						p.work__description    Lorem ipsum dolor sit amet.
 
-					.caja.tablet-1-3
+					.caja.movil-50.tablet-1-3
 						img.work__image(src="http://lorempixel.com/500/500", alt="word")
 						p.work__description    Lorem ipsum dolor sit amet.
 
-					.caja.tablet-1-3
+					.caja.movil-50.tablet-1-3
 						img.work__image(src="http://lorempixel.com/500/500", alt="word")
 						p.work__description    Lorem ipsum dolor sit amet.
 
-					.caja.tablet-1-3
+					.caja.movil-50.tablet-1-3
+						img.work__image(src="http://lorempixel.com/500/500", alt="word")
+						p.work__description    Lorem ipsum dolor sit amet.
+
+					.caja.movil-50.tablet-1-3
+						img.work__image(src="http://lorempixel.com/500/500", alt="word")
+						p.work__description    Lorem ipsum dolor sit amet.
+					
+					.caja.movil-50.tablet-1-3
 						img.work__image(src="http://lorempixel.com/500/500", alt="word")
 						p.work__description    Lorem ipsum dolor sit amet.
 	
-			footer.footer
+			footer.footer#contact
 				.grupo
-					.caja
+					.caja.total
 						h2.footer__title contacto
 
-					.caja
+					.caja.movil-50
 						p.footer__description  Lorem ipsum dolor sit amet, consectetur adipisicing elit. In fugiat, similique nemo tenetur accusamus, consectetur?
 					
-					.caja
+					.caja.movil-50
 						form.footer__form(action="")
 						input.footer__input--text(type="text" placeholder="nombre" )
 						input.footer__input--pass(type="email" placeholder="email" )
