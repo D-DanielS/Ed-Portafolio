@@ -13,20 +13,42 @@
 		font-size: 1.50em;
 	}
 	&__form{
+		margin: .5em;
 	}
 	&__input--text{
 		text-transform: capitalize;
 		background: red;
+		display: block;
+		padding: .3em;
+		margin: .5em auto;
+		width: 70%;
 	}
 	&__input--pass{
 		text-transform: capitalize;
+		background: blue;
+		display: block;
+		padding: .3em;
+		margin: .5em auto;
+		width: 70%;
 	}
 	&__textarea{
 		text-transform: capitalize;
+		background: green;
+		display: block;
+		padding: .3em;
+		margin: .5em auto;
+		width: 70%;		resize: none;
 
 	}
 	&__button{
 		text-transform: capitalize;
+		background: red;
+		font-size: 1.50em;
 		display: block;
+		margin: .5em auto;
+		width: 70%;
+		padding: .1em;
+		width: 70%;
+
 	}
 }
