@@ -24,5 +24,8 @@
 		margin-right: .2em;
 		text-transform: capitalize;
 		text-decoration: none;
+		@include desde(movil){
+			padding-right: 1em;
+		}
 	}
 }

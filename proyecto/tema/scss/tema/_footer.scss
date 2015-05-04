@@ -25,36 +25,46 @@
 	}
 	&__input--text{
 		text-transform: capitalize;
-		background: red;
 		display: block;
 		padding: .3em;
 		margin: .5em auto;
 		width: 100%;
+		@include desde(tablet){
+			width: 80%;
+		}
 	}
 	&__input--pass{
 		text-transform: capitalize;
-		background: blue;
 		display: block;
 		padding: .3em;
 		margin: .5em auto;
 		width: 100%;
+		@include desde(tablet){
+			width: 80%;
+		}
 	}
 	&__textarea{
 		text-transform: capitalize;
-		background: green;
 		display: block;
 		padding: .3em;
 		margin: .5em auto;
 		width: 100%;		resize: none;
+		@include desde(tablet){
+			width: 80%;
+		}
 
 	}
 	&__button{
 		text-transform: capitalize;
-		background: red;
+		background: #43484A;
+		color: #fff;
 		font-size: 1.50em;
 		display: block;
 		margin: .5em auto;
 		width: 100%;
 		padding: .1em;
+		@include desde(tablet){
+			width: 80%;
+		}
 	}
 }

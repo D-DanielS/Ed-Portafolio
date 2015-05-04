@@ -35,13 +35,14 @@
 
 			
 	&__link--twitter{
-		background: red;
+		background: #55ACEE;
+		color: #fff;
 		@include desde(movil){
 			width: 28%;
 		} 
 	}
 	&__link--facebook{
-		background: blue;
+		background: #44619D;
 		color: #fff;
 		@include desde(movil){
 			width: 28%;
@@ -50,7 +51,7 @@
 		
 	}
 	&__link--github{
-		background: green;
+		background: #333333;
 		color: #fff;
 		@include desde(movil){
 			width: 28%;
